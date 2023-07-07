@@ -1,21 +1,31 @@
 import './Animalshow.css';
 import { useState } from 'react';
-import bird from './svg/bird.svg'; 
-import cat from './svg/cat.svg';
-import cow from './svg/cow.svg';
-import dog from './svg/dog.svg';
-import gator from './svg/gator.svg';
+import cat from './svg/cat.png'; 
+import dog from './svg/dog.png';
+import lion from './svg/lion.png';
+import elephant from './svg/elephant.png';
+import buffelo from './svg/buffelo.png';
+import horse from './svg/horse.png';
 import heart from './svg/heart.svg';
-import horse from './svg/horse.svg';
-
+import bird1 from './svg/bird1.png';
+import bird2 from './svg/bird2.png';
+import bird3 from './svg/bird3.png';
+import bird4 from './svg/bird4.png';
+import bird6 from './svg/bird6.png';
 const svgMap = {
-    bird,
     cat,
-    cow,
     dog,
-    gator,
-    horse
+    lion,
+    buffelo,
+    horse,
+    elephant,
+    bird1,
+    bird2,
+    bird3,
+    bird4,
+    bird6
 };
+
 
 function Animalshow ( {type} ){
     const [clicks, setClicks] = useState(0);
@@ -31,3 +41,4 @@ function Animalshow ( {type} ){
 }
 
 export default Animalshow;
+

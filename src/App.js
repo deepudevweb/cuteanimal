@@ -3,7 +3,7 @@ import { useState } from "react";
 import Animalshow from './Animalshow';
 
 function getRandomAnimal() {
-    const animals = ['bird', 'cat', 'cow', 'dog', 'gator', 'horse'];
+    const animals = [ 'cat', 'elephant' , 'lion', 'dog', 'buffelo', 'horse' , 'bird1' , 'bird2', 'bird3' , 'bird4' , 'bird6'];
     return animals[Math.floor(Math.random() * animals.length)];
 }
 console.log(getRandomAnimal());
@@ -39,7 +39,7 @@ function App() {
     //     setCount (count+1);
     return (
         <div className="app">
-            <button onClick={handleClick}> Add animals </button>
+            <button onClick={handleClick}> Add animals and birds </button>
             <div class="loader">
                 <div class="loading_1"></div>
                 <div class="loading_2">Loading GfG...</div>
